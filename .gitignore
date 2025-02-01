@@ -1,0 +1,110 @@
+**/.DS_Store
+.vscode/easycode.ignore
+## Backend ignored file (Root level)
+backend/.DS_Store
+node_modules/
+backend/.env
+backend/.idea
+
+
+## Frontend ignored file (Root level)
+frontend/.env
+
+# Miscellaneous
+frontend/*.class
+frontend/*.log
+frontend/*.pyc
+frontend/*.swp
+frontend/.DS_Store
+frontend/.atom/
+frontend/.buildlog/
+frontend/.history
+frontend/.svn/
+frontend/migrate_working_dir/
+
+# IntelliJ related
+frontend/*.iml
+frontend/*.ipr
+frontend/*.iws
+frontend/.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#frontend/.vscode/
+
+# Flutter/Dart/Pub related
+frontend/**/doc/api/
+frontend/**/ios/Flutter/.last_build_id
+frontend/.dart_tool/
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+frontend/.pub-cache/
+frontend/.pub/
+frontend/build/
+
+# Symbolication related
+frontend/app.*.symbols
+
+# Obfuscation related
+frontend/app.*.map.json
+
+# Android Studio will place build artifacts here
+frontend/android/app/debug
+frontend/android/app/profile
+frontend/android/app/release
+
+
+# Frontend ignored file (Android level)
+
+gradle-wrapper.jar
+frontend/android/.gradle
+frontend/android/captures/
+frontend/android/gradlew
+frontend/android/gradlew.bat
+frontend/android/local.properties
+GeneratedPluginRegistrant.java
+
+# Remember to never publicly share your keystore.
+# See https://flutter.dev/docs/deployment/android#reference-the-keystore-from-the-app
+key.properties
+**/*.keystore
+**/*.jks
+
+
+# Frontend ignored file (iOS level)
+
+**/dgph
+*.mode1v3
+*.mode2v3
+*.moved-aside
+*.pbxuser
+*.perspectivev3
+**/*sync/
+.sconsign.dblite
+.tags*
+**/.vagrant/
+**/DerivedData/
+Icon?
+**/Pods/
+**/.symlinks/
+profile
+xcuserdata
+**/.generated/
+frontend/ios/Flutter/App.framework
+frontend/ios/Flutter/Flutter.framework
+frontend/ios/Flutter/Flutter.podspec
+frontend/ios/Flutter/Generated.xcconfig
+frontend/ios/Flutter/ephemeral/
+frontend/ios/Flutter/app.flx
+frontend/ios/Flutter/app.zip
+frontend/ios/Flutter/flutter_assets/
+frontend/ios/Flutter/flutter_export_environment.sh
+ServiceDefinitions.json
+frontend/ios/Runner/GeneratedPluginRegistrant.*
+
+# Exceptions to above rules.
+!default.mode1v3
+!default.mode2v3
+!default.pbxuser
+!default.perspectivev3
