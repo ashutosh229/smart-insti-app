@@ -1,5 +1,10 @@
 class Room {
-  Room({this.occupantId, this.id, required this.name, this.vacant = true, this.occupantName});
+  Room(
+      {this.occupantId,
+      this.id,
+      required this.name,
+      this.vacant = true,
+      this.occupantName});
 
   final String? id;
   final String name;

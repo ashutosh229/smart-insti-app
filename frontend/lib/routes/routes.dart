@@ -48,7 +48,8 @@ final GoRouter routes = GoRouter(
       routes: [
         GoRoute(
           path: 'profile',
-          pageBuilder: (context, state) => const MaterialPage(child: AdminProfile()),
+          pageBuilder: (context, state) =>
+              const MaterialPage(child: AdminProfile()),
         ),
         GoRoute(
           path: 'add_students',
@@ -94,15 +95,18 @@ final GoRouter routes = GoRouter(
       routes: [
         GoRoute(
           path: 'faculty_profile',
-          pageBuilder: (context, state) => const MaterialPage(child: FacultyProfile()),
+          pageBuilder: (context, state) =>
+              const MaterialPage(child: FacultyProfile()),
         ),
         GoRoute(
           path: 'student_profile',
-          pageBuilder: (context, state) => const MaterialPage(child: StudentProfile()),
+          pageBuilder: (context, state) =>
+              const MaterialPage(child: StudentProfile()),
         ),
         GoRoute(
           path: 'room_vacancy',
-          pageBuilder: (context, state) => const MaterialPage(child: RoomVacancy()),
+          pageBuilder: (context, state) =>
+              const MaterialPage(child: RoomVacancy()),
         ),
         GoRoute(
           path: 'lost_and_found',
@@ -114,7 +118,8 @@ final GoRouter routes = GoRouter(
           routes: [
             GoRoute(
               path: 'editor',
-              pageBuilder: (context, state) => const MaterialPage(child: TimetableEditor()),
+              pageBuilder: (context, state) =>
+                  const MaterialPage(child: TimetableEditor()),
             ),
           ],
         ),
@@ -126,7 +131,10 @@ final GoRouter routes = GoRouter(
           path: 'chat_room',
           pageBuilder: (context, state) => MaterialPage(child: ChatRoom()),
         ),
-        GoRoute(path: 'mess_menu', pageBuilder: (context, state) => MaterialPage(child: UserMessMenu()) ),
+        GoRoute(
+            path: 'mess_menu',
+            pageBuilder: (context, state) =>
+                MaterialPage(child: UserMessMenu())),
       ],
     ),
   ],

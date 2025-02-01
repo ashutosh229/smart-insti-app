@@ -34,6 +34,8 @@ app.use(cors());
 
 // Get Database connection
 Connection();
+
+//routes
 app.use("/admin", adminResource);
 app.use("/student", studentResource);
 app.use("/students", studentListResource);
